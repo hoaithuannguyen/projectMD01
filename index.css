@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.ikidsclothing {
+    margin-left: 60px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu {
+    margin-top: 15px;
+    padding-right: 80px;
+}
+
+.menu ul li {
+    padding-left: 15px;
+}
+
+span {
+    font-size: 5px;
+}
+
+.search {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.search img {
+    margin-top: 7px;
+    margin-left: 3px
+}
+
+.img-signin {
+    margin-left: 10px;
+}
+
+.img-cart {
+    margin-right: 10px;
+}
+
+.cart-text {
+    margin-right: 80px;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+h1 {
+    color: lightblue;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+#div-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-discount {
+    width: 270px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.name {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-left: 25px;
+}
+
+.banner-plus {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.banner-plus-left img {
+    width: 650px;
+    height: 650px;
+}
+
+.banner-plus-right img {
+    margin-left: 25px;
+    width: 540px;
+    height: 310px;
+    margin-bottom: 25px;
+}
